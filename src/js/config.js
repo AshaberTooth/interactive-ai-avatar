@@ -1,7 +1,7 @@
 // Configuration file for default values
 const config = {  // Azure Speech Resource
   speechService: {
-    region: '<your-region>', // Default region
+    region: 'East US 2', // Default region
     apiKey: '<your-api-key>', // Leave empty for security, or set default if needed
     privateEndpoint: '' // Leave empty to use standard endpoint
   },
@@ -11,7 +11,7 @@ const config = {  // Azure Speech Resource
     endpoint: 'https://ai-amishra-4720.openai.azure.com/', // Default endpoint
     apiKey: '<your-api-key>', // Leave empty for security
     deploymentName: 'gpt-4o', // Default deployment name
-    systemPrompt: 'You are an AI assistant, your name is Meg, you helps people find information. You keep the responses short and do not use any emoticons or special characters'
+    systemPrompt: 'You are an AI assistant, your name is Meg, you helps people find information. You keep the responses short, use hand gestures while talking and do not use any emoticons or special characters'
   },
   
   // Azure Cognitive Search (for On Your Data)
