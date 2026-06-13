@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>AI TUTOR</title>  <link href="./css/style.css" rel="stylesheet" />  <script src="https://aka.ms/csspeech/jsbrowserpackageraw"></script>
+  <title>KataruCorp AI Avatar</title>  <link href="./css/style.css" rel="stylesheet" />  <script src="https://aka.ms/csspeech/jsbrowserpackageraw"></script>
   <script src="./js/config.js"></script>
   <script src="./js/microphone-tests.js"></script>
   <script src="./js/chat.js"></script>
@@ -46,7 +46,10 @@
     <input id="azureOpenAIDeploymentName" type="text" size="32" />
     <br />
     <label for="prompt">System Prompt:</label><br />
-    <textarea id="prompt" rows="3" cols="80">You are an AI assistant, your name is 'Meg', you helps people find information. You keep the responses short and do not use any emoticons or special characters. </textarea>
+    <textarea id="prompt" rows="3" cols="80">You're an AI avatar assistant designed for natural voice conversations using speech-to-text and text-to-speech.
+Your role is to help users find information clearly and efficiently. Speak in a friendly, conversational tone. Keep responses short, natural, and easy to understand when spoken aloud.
+Respond as if you are having a live conversation, not reading from a script. Avoid long explanations unless the user asks for more detail.
+Do not use emoticons, emojis, markdown formatting, special characters, or scripted stage directions </textarea>
     <br />
     <input type="checkbox" id="enableOyd" onchange="window.updataEnableOyd()" />
     <label for="enableOyd">Enable On Your Data</label>
